@@ -38,3 +38,11 @@
 4.创建并切换分支   git checkout -b 分支名  
 5.将新文件合并到master上   先切换到master上,再git merge 分支名  
 6.删除分支   git branch -d 分支名
+
+
+
+# 远程仓库
+## 将本地仓库推送到远程仓库
+git push 远程仓库的https 分支名(如果失败,关闭加速器)
+如果远程仓库与本地仓库有冲突,想要强行推送的话,先键入 
+git pull 远程仓库的http 分支名 --allow-unrelated-histories
