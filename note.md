@@ -63,3 +63,6 @@ git push 远程仓库的https 分支名(如果失败,关闭加速器)
 git pull 远程仓库的http 分支名 --allow-unrelated-histories
 ## 为远程仓库起别名
 git remote add 别名 远程仓库的http
+## 再次简化push命令
+第一次:git push -u 远程仓库别名 分支名
+之后:git push
