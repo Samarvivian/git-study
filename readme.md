@@ -1,0 +1,3 @@
+# git study
+This is my second year to learn CS.To be honest,I had ignored git for many times.Incidently,I watched a note in red book,where the up asked for a good idea to manage different versions of his code,and someone suggest him to use git.I suddenly understand the importance of git,and I learned it again.  
+It is so amazing when I enjoy its charm this time.I just want to say,"what belongs to you will come in the end".
