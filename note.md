@@ -57,12 +57,34 @@
 
 
 # 远程仓库
+
 ## 将本地仓库推送到远程仓库
-git push 远程仓库的https 分支名(如果失败,关闭加速器)
-如果远程仓库与本地仓库有冲突,想要强行推送的话,先键入 
-git pull 远程仓库的http 分支名 --allow-unrelated-histories
+
+- `git push 远程仓库的https 分支名`  
+  如果失败，关闭加速器。  
+  如果远程仓库与本地仓库有冲突，想要强行推送的话，先键入：  
+  `git pull 远程仓库的http 分支名 --allow-unrelated-histories`
+
 ## 为远程仓库起别名
-git remote add 别名 远程仓库的http
-## 再次简化push命令
-第一次:git push -u 远程仓库别名 分支名
-之后:git push
+
+- `git remote add 别名 远程仓库的http`
+
+## 再次简化 push 命令
+
+- 第一次：  
+  `git push -u 远程仓库别名 分支名`  
+- 之后：  
+  `git push`
+
+## 克隆远程仓库
+
+- `git clone 远程仓库的http`
+
+## 邀请他人一起协作
+
+![alt text](image.png)  
+`clone` 会克隆得很全面，包括仓库的别名。
+
+## 拉取远程仓库中的最新版本
+
+- `git pull 远程仓库的http 分支名`
