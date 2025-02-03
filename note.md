@@ -88,3 +88,14 @@
 ## 拉取远程仓库中的最新版本
 
 - `git pull 远程仓库的http 分支名`
+
+
+
+
+# 用ssh免登录
+1.复制仓库中的ssh  
+2.为该仓库起别名  
+3.git push 仓库别名 分支名
+
+# 在github上寻找开源项目
+![alt text](image-1.png)
